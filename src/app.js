@@ -6,7 +6,7 @@ const errorHandler = require('./utils/errorHandler');
 const path = require('path');
 require('dotenv').config();
 
-// Esta es nuestra aplicación
+// Esta es la aplicación
 const app = express();
 
 // Middlewares 
@@ -27,5 +27,5 @@ app.use(errorHandler)
 
 module.exports = app;
 
-// si tienes un  error y no lo encuentras, colocas clg("mas la ruta que quieres verificar aqui")
+// si tengo un  error y no lo encuentra, coloca clg("mas la ruta que quiero verificar aqui")
 

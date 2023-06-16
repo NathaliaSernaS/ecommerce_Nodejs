@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080;
 
 const main = async() => {
     try{
-        // si tienes un error dentro de sync colocaras ({alter:true}) o ({force:true})
+        // si tengo un error dentro de sync coloco ({alter:true}) o ({force:true})
         await sequelize.sync();
         console.log("DB connected");
         app.listen(PORT);
