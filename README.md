@@ -6,11 +6,15 @@ Este proyecto es una API REST que permite operaciones CRUD (Create, Read, Update
 
 Este proyecto usa node v18.15.0 y npm 9.5.0
 
-Esta desplegada con RENDER en la siguiente url:
+# La aplicación esta desplegada con RENDER en la siguiente url:
 
     https://ecommerce-nodejs-m4vg.onrender.com/
 
-El front se construira posteriormente
+# La documentación de postman se encuentra en el siguiente link
+
+    https://documenter.getpostman.com/view/23508230/2s93sgXr7H
+   
+* El front se construira posteriormente
 
 ## Requisitos
 Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes dependencias:
@@ -38,19 +42,19 @@ Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes dep
 
 2. Instale las dependencias con el comando npm install.
 
- npm i express 
+   npm i express 
 
- npm i cors
+   npm i cors
 
- npm i helmet 
+   npm i helmet 
  
- npm i dotenv
+   npm i dotenv
 
- npm i pg pg-hstore 
+   npm i pg pg-hstore 
 
- npm i sequelize
+   npm i sequelize
 
- npm i nodemon -D
+   npm i nodemon -D
 
 
  
@@ -91,11 +95,11 @@ para instalar cloudinary usamos el siguiente comando:
 
 de la pagina de cloudinary obtenemos algo como esto: 
 
- CLOUDINARY_CLOUD_NAME=dx2kmdxak
+   CLOUDINARY_CLOUD_NAME=dx2kmdxak
 
- CLOUDINARY_API_KEY=88545915683759
- 
- CLOUDINARY_API_SECRET=2g1TdgejdXHkO7U4OG5fLMl6TPp
+   CLOUDINARY_API_KEY=88545915683759
+
+   CLOUDINARY_API_SECRET=2g1TdgejdXHkO7U4OG5fLMl6TPp
 
 Lo anterior lo copiamos en el .env, igual que el DATABASE que genera postgres y el token de bcryt 
 
